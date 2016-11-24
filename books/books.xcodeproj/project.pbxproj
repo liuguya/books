@@ -8,14 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		773BE77BB8D455F4238477EE /* Pods_books.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0C47C5ABA07B340E7B2C8E /* Pods_books.framework */; };
-		DD4801851DE6B64D00386316 /* 导航-个人信息1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD4801701DE6B64D00386316 /* 导航-个人信息1@2x.png */; };
-		DD4801861DE6B64D00386316 /* 导航-个人信息2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD4801711DE6B64D00386316 /* 导航-个人信息2@2x.png */; };
-		DD4801871DE6B64D00386316 /* 导航-活动中心1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD4801721DE6B64D00386316 /* 导航-活动中心1@2x.png */; };
-		DD4801881DE6B64D00386316 /* 导航-活动中心2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD4801731DE6B64D00386316 /* 导航-活动中心2@2x.png */; };
-		DD4801891DE6B64D00386316 /* 导航-直播1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD4801741DE6B64D00386316 /* 导航-直播1@2x.png */; };
-		DD48018A1DE6B64D00386316 /* 导航-直播2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD4801751DE6B64D00386316 /* 导航-直播2@2x.png */; };
-		DD48018B1DE6B64D00386316 /* 导航-资源中心1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD4801761DE6B64D00386316 /* 导航-资源中心1@2x.png */; };
-		DD48018C1DE6B64D00386316 /* 导航-资源中心2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD4801771DE6B64D00386316 /* 导航-资源中心2@2x.png */; };
 		DD48019A1DE6BAD500386316 /* book.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD48018E1DE6BAD500386316 /* book.jpg */; };
 		DD48019B1DE6BAD500386316 /* icon-29.png in Resources */ = {isa = PBXBuildFile; fileRef = DD48018F1DE6BAD500386316 /* icon-29.png */; };
 		DD48019C1DE6BAD500386316 /* icon-29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD4801901DE6BAD500386316 /* icon-29@2x.png */; };
@@ -37,6 +29,19 @@
 		DD4801B51DE6BE8600386316 /* Default-Portrait-ns.png in Resources */ = {isa = PBXBuildFile; fileRef = DD4801AC1DE6BE8600386316 /* Default-Portrait-ns.png */; };
 		DD4801B61DE6BE8600386316 /* Default-Portrait-ns@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD4801AD1DE6BE8600386316 /* Default-Portrait-ns@2x.png */; };
 		DD4801B71DE6BE8600386316 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD4801AE1DE6BE8600386316 /* Default@2x.png */; };
+		DD4801C01DE6CA8900386316 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4801BF1DE6CA8900386316 /* MainTabBarController.swift */; };
+		DD4801F31DE6D03F00386316 /* ColllectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4801F21DE6D03F00386316 /* ColllectViewController.swift */; };
+		DD4801F51DE6D06000386316 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4801F41DE6D06000386316 /* MovieViewController.swift */; };
+		DD4801F71DE6D07B00386316 /* ZanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4801F61DE6D07B00386316 /* ZanViewController.swift */; };
+		DD4801F91DE6D09300386316 /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4801F81DE6D09300386316 /* PersonViewController.swift */; };
+		DD4802031DE6D33D00386316 /* collect.png in Resources */ = {isa = PBXBuildFile; fileRef = DD4801FB1DE6D33D00386316 /* collect.png */; };
+		DD4802041DE6D33D00386316 /* collect2.png in Resources */ = {isa = PBXBuildFile; fileRef = DD4801FC1DE6D33D00386316 /* collect2.png */; };
+		DD4802051DE6D33D00386316 /* movie.png in Resources */ = {isa = PBXBuildFile; fileRef = DD4801FD1DE6D33D00386316 /* movie.png */; };
+		DD4802061DE6D33D00386316 /* movie2.png in Resources */ = {isa = PBXBuildFile; fileRef = DD4801FE1DE6D33D00386316 /* movie2.png */; };
+		DD4802071DE6D33D00386316 /* person.png in Resources */ = {isa = PBXBuildFile; fileRef = DD4801FF1DE6D33D00386316 /* person.png */; };
+		DD4802081DE6D33D00386316 /* person2.png in Resources */ = {isa = PBXBuildFile; fileRef = DD4802001DE6D33D00386316 /* person2.png */; };
+		DD4802091DE6D33D00386316 /* zan.png in Resources */ = {isa = PBXBuildFile; fileRef = DD4802011DE6D33D00386316 /* zan.png */; };
+		DD48020A1DE6D33D00386316 /* zan2.png in Resources */ = {isa = PBXBuildFile; fileRef = DD4802021DE6D33D00386316 /* zan2.png */; };
 		DDEC5B181DE6817600DC3E05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEC5B171DE6817600DC3E05 /* AppDelegate.swift */; };
 		DDEC5B1A1DE6817600DC3E05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEC5B191DE6817600DC3E05 /* ViewController.swift */; };
 		DDEC5B1D1DE6817600DC3E05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDEC5B1B1DE6817600DC3E05 /* Main.storyboard */; };
@@ -67,14 +72,6 @@
 		575B54D26DAD680FD6DCCE77 /* Pods-books.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-books.debug.xcconfig"; path = "Pods/Target Support Files/Pods-books/Pods-books.debug.xcconfig"; sourceTree = "<group>"; };
 		BC0C47C5ABA07B340E7B2C8E /* Pods_books.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_books.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C39D885524F74187B036F944 /* Pods-books.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-books.release.xcconfig"; path = "Pods/Target Support Files/Pods-books/Pods-books.release.xcconfig"; sourceTree = "<group>"; };
-		DD4801701DE6B64D00386316 /* 导航-个人信息1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "导航-个人信息1@2x.png"; sourceTree = "<group>"; };
-		DD4801711DE6B64D00386316 /* 导航-个人信息2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "导航-个人信息2@2x.png"; sourceTree = "<group>"; };
-		DD4801721DE6B64D00386316 /* 导航-活动中心1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "导航-活动中心1@2x.png"; sourceTree = "<group>"; };
-		DD4801731DE6B64D00386316 /* 导航-活动中心2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "导航-活动中心2@2x.png"; sourceTree = "<group>"; };
-		DD4801741DE6B64D00386316 /* 导航-直播1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "导航-直播1@2x.png"; sourceTree = "<group>"; };
-		DD4801751DE6B64D00386316 /* 导航-直播2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "导航-直播2@2x.png"; sourceTree = "<group>"; };
-		DD4801761DE6B64D00386316 /* 导航-资源中心1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "导航-资源中心1@2x.png"; sourceTree = "<group>"; };
-		DD4801771DE6B64D00386316 /* 导航-资源中心2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "导航-资源中心2@2x.png"; sourceTree = "<group>"; };
 		DD48018E1DE6BAD500386316 /* book.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = book.jpg; sourceTree = "<group>"; };
 		DD48018F1DE6BAD500386316 /* icon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-29.png"; sourceTree = "<group>"; };
 		DD4801901DE6BAD500386316 /* icon-29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-29@2x.png"; sourceTree = "<group>"; };
@@ -96,6 +93,19 @@
 		DD4801AC1DE6BE8600386316 /* Default-Portrait-ns.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait-ns.png"; sourceTree = "<group>"; };
 		DD4801AD1DE6BE8600386316 /* Default-Portrait-ns@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait-ns@2x.png"; sourceTree = "<group>"; };
 		DD4801AE1DE6BE8600386316 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DD4801BF1DE6CA8900386316 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		DD4801F21DE6D03F00386316 /* ColllectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColllectViewController.swift; sourceTree = "<group>"; };
+		DD4801F41DE6D06000386316 /* MovieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
+		DD4801F61DE6D07B00386316 /* ZanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZanViewController.swift; sourceTree = "<group>"; };
+		DD4801F81DE6D09300386316 /* PersonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
+		DD4801FB1DE6D33D00386316 /* collect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = collect.png; sourceTree = "<group>"; };
+		DD4801FC1DE6D33D00386316 /* collect2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = collect2.png; sourceTree = "<group>"; };
+		DD4801FD1DE6D33D00386316 /* movie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movie.png; sourceTree = "<group>"; };
+		DD4801FE1DE6D33D00386316 /* movie2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movie2.png; sourceTree = "<group>"; };
+		DD4801FF1DE6D33D00386316 /* person.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = person.png; sourceTree = "<group>"; };
+		DD4802001DE6D33D00386316 /* person2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = person2.png; sourceTree = "<group>"; };
+		DD4802011DE6D33D00386316 /* zan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zan.png; sourceTree = "<group>"; };
+		DD4802021DE6D33D00386316 /* zan2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zan2.png; sourceTree = "<group>"; };
 		DDEC5B141DE6817600DC3E05 /* books.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = books.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDEC5B171DE6817600DC3E05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDEC5B191DE6817600DC3E05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -149,9 +159,9 @@
 		DD48015F1DE6B64D00386316 /* image */ = {
 			isa = PBXGroup;
 			children = (
+				DD4801FA1DE6D33D00386316 /* tarbar */,
 				DD48018D1DE6BAD500386316 /* logo */,
 				DD4801601DE6B64D00386316 /* LaunchImage */,
-				DD48016F1DE6B64D00386316 /* tarbar */,
 			);
 			path = image;
 			sourceTree = "<group>";
@@ -172,21 +182,6 @@
 			path = LaunchImage;
 			sourceTree = "<group>";
 		};
-		DD48016F1DE6B64D00386316 /* tarbar */ = {
-			isa = PBXGroup;
-			children = (
-				DD4801701DE6B64D00386316 /* 导航-个人信息1@2x.png */,
-				DD4801711DE6B64D00386316 /* 导航-个人信息2@2x.png */,
-				DD4801721DE6B64D00386316 /* 导航-活动中心1@2x.png */,
-				DD4801731DE6B64D00386316 /* 导航-活动中心2@2x.png */,
-				DD4801741DE6B64D00386316 /* 导航-直播1@2x.png */,
-				DD4801751DE6B64D00386316 /* 导航-直播2@2x.png */,
-				DD4801761DE6B64D00386316 /* 导航-资源中心1@2x.png */,
-				DD4801771DE6B64D00386316 /* 导航-资源中心2@2x.png */,
-			);
-			path = tarbar;
-			sourceTree = "<group>";
-		};
 		DD48018D1DE6BAD500386316 /* logo */ = {
 			isa = PBXGroup;
 			children = (
@@ -204,6 +199,47 @@
 				DD4801991DE6BAD500386316 /* icon-76@2x.png */,
 			);
 			path = logo;
+			sourceTree = "<group>";
+		};
+		DD4801BA1DE6C57C00386316 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DD4801BF1DE6CA8900386316 /* MainTabBarController.swift */,
+				DD4801F61DE6D07B00386316 /* ZanViewController.swift */,
+				DD4801F81DE6D09300386316 /* PersonViewController.swift */,
+				DD4801F41DE6D06000386316 /* MovieViewController.swift */,
+				DD4801F21DE6D03F00386316 /* ColllectViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		DD4801BB1DE6C57C00386316 /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		DD4801BC1DE6C57C00386316 /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		DD4801FA1DE6D33D00386316 /* tarbar */ = {
+			isa = PBXGroup;
+			children = (
+				DD4801FB1DE6D33D00386316 /* collect.png */,
+				DD4801FC1DE6D33D00386316 /* collect2.png */,
+				DD4801FD1DE6D33D00386316 /* movie.png */,
+				DD4801FE1DE6D33D00386316 /* movie2.png */,
+				DD4801FF1DE6D33D00386316 /* person.png */,
+				DD4802001DE6D33D00386316 /* person2.png */,
+				DD4802011DE6D33D00386316 /* zan.png */,
+				DD4802021DE6D33D00386316 /* zan2.png */,
+			);
+			path = tarbar;
 			sourceTree = "<group>";
 		};
 		DDEC5B0B1DE6817600DC3E05 = {
@@ -231,6 +267,9 @@
 		DDEC5B161DE6817600DC3E05 /* books */ = {
 			isa = PBXGroup;
 			children = (
+				DD4801BA1DE6C57C00386316 /* controllers */,
+				DD4801BB1DE6C57C00386316 /* models */,
+				DD4801BC1DE6C57C00386316 /* views */,
 				DDEC5B171DE6817600DC3E05 /* AppDelegate.swift */,
 				DDEC5B191DE6817600DC3E05 /* ViewController.swift */,
 				DDEC5B1B1DE6817600DC3E05 /* Main.storyboard */,
@@ -377,35 +416,35 @@
 			files = (
 				DDEC5B221DE6817600DC3E05 /* LaunchScreen.storyboard in Resources */,
 				DD48019F1DE6BAD500386316 /* icon-57@2x.png in Resources */,
+				DD4802051DE6D33D00386316 /* movie.png in Resources */,
+				DD4802031DE6D33D00386316 /* collect.png in Resources */,
 				DD48019B1DE6BAD500386316 /* icon-29.png in Resources */,
-				DD4801891DE6B64D00386316 /* 导航-直播1@2x.png in Resources */,
 				DD48019D1DE6BAD500386316 /* icon-40@2x.png in Resources */,
+				DD4802041DE6D33D00386316 /* collect2.png in Resources */,
 				DD4801AF1DE6BE8600386316 /* Default-568h@2x.png in Resources */,
 				DD4801A21DE6BAD500386316 /* icon-72.png in Resources */,
 				DD48019A1DE6BAD500386316 /* book.jpg in Resources */,
 				DDEC5B1F1DE6817600DC3E05 /* Assets.xcassets in Resources */,
+				DD4802061DE6D33D00386316 /* movie2.png in Resources */,
 				DD4801A31DE6BAD500386316 /* icon-72@2x.png in Resources */,
 				DD4801B11DE6BE8600386316 /* Default-Landscape-ns.png in Resources */,
 				DD4801B01DE6BE8600386316 /* Default-Land-hd55.png in Resources */,
-				DD4801871DE6B64D00386316 /* 导航-活动中心1@2x.png in Resources */,
+				DD4802081DE6D33D00386316 /* person2.png in Resources */,
 				DD4801B61DE6BE8600386316 /* Default-Portrait-ns@2x.png in Resources */,
 				DD4801A51DE6BAD500386316 /* icon-76@2x.png in Resources */,
 				DD4801A11DE6BAD500386316 /* icon-60@3x.png in Resources */,
 				DD4801B71DE6BE8600386316 /* Default@2x.png in Resources */,
+				DD4802091DE6D33D00386316 /* zan.png in Resources */,
 				DD4801A41DE6BAD500386316 /* icon-76.png in Resources */,
+				DD48020A1DE6D33D00386316 /* zan2.png in Resources */,
 				DD48019C1DE6BAD500386316 /* icon-29@2x.png in Resources */,
 				DD4801B51DE6BE8600386316 /* Default-Portrait-ns.png in Resources */,
-				DD4801881DE6B64D00386316 /* 导航-活动中心2@2x.png in Resources */,
-				DD48018C1DE6B64D00386316 /* 导航-资源中心2@2x.png in Resources */,
 				DD4801A01DE6BAD500386316 /* icon-60@2x.png in Resources */,
-				DD48018B1DE6B64D00386316 /* 导航-资源中心1@2x.png in Resources */,
-				DD4801861DE6B64D00386316 /* 导航-个人信息2@2x.png in Resources */,
 				DDEC5B1D1DE6817600DC3E05 /* Main.storyboard in Resources */,
-				DD48018A1DE6B64D00386316 /* 导航-直播2@2x.png in Resources */,
 				DD4801B41DE6BE8600386316 /* Default-Port-hd55.png in Resources */,
 				DD48019E1DE6BAD500386316 /* icon-57.png in Resources */,
 				DD4801B21DE6BE8600386316 /* Default-Landscape-ns@2x.png in Resources */,
-				DD4801851DE6B64D00386316 /* 导航-个人信息1@2x.png in Resources */,
+				DD4802071DE6D33D00386316 /* person.png in Resources */,
 				DD4801B31DE6BE8600386316 /* Default-Port-hd47.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -479,8 +518,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD4801F31DE6D03F00386316 /* ColllectViewController.swift in Sources */,
+				DD4801F51DE6D06000386316 /* MovieViewController.swift in Sources */,
+				DD4801F71DE6D07B00386316 /* ZanViewController.swift in Sources */,
 				DDEC5B1A1DE6817600DC3E05 /* ViewController.swift in Sources */,
 				DDEC5B181DE6817600DC3E05 /* AppDelegate.swift in Sources */,
+				DD4801C01DE6CA8900386316 /* MainTabBarController.swift in Sources */,
+				DD4801F91DE6D09300386316 /* PersonViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
